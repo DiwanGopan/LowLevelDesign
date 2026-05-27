@@ -1,4 +1,5 @@
 ﻿using ConceptPractice.OOPS;
+using ConceptPractice.PracticeProjects.GoogleDocs;
 using ConceptPractice.SOLIDPrinciples.LSP;
 using ConceptPractice.SOLIDPrinciples.LSP.LSPRules.SignatureRules;
 using ConceptPractice.SOLIDPrinciples.OCP;
@@ -25,12 +26,17 @@ namespace ConceptPractice
 
             //OCPViolated.Run();
             //OCPFollowed.Run();
-            
+
             //LSPViolated.Run();
             //LSPFollowedWrongly.Run();
             //LSPFollowed.Run();
 
-            MethodArgumentRule.Run();
+
+            // Practice Projects
+            // Google Docs
+            //DocumentEditorBD.DocumentEditorClient.Run();
+            DocumentEditorGD.DocumentEditorClient.Run();
+
         }
     }
 }
