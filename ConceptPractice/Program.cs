@@ -1,4 +1,5 @@
-﻿using ConceptPractice.OOPS;
+﻿using ConceptPractice.DesignPatterns.StrategyPattern;
+using ConceptPractice.OOPS;
 using ConceptPractice.PracticeProjects.GoogleDocs;
 using ConceptPractice.SOLIDPrinciples.LSP;
 using ConceptPractice.SOLIDPrinciples.LSP.LSPRules.SignatureRules;
@@ -35,7 +36,9 @@ namespace ConceptPractice
             // Practice Projects
             // Google Docs
             //DocumentEditorBD.DocumentEditorClient.Run();
-            DocumentEditorGD.DocumentEditorClient.Run();
+            //DocumentEditorGD.DocumentEditorClient.Run();
+
+            StrategyPattern.Run();
 
         }
     }
