@@ -1,4 +1,5 @@
-﻿using ConceptPractice.DesignPatterns.StrategyPattern;
+﻿using ConceptPractice.DesignPatterns.FactoryPattern;
+using ConceptPractice.DesignPatterns.StrategyPattern;
 using ConceptPractice.OOPS;
 using ConceptPractice.PracticeProjects.GoogleDocs;
 using ConceptPractice.SOLIDPrinciples.LSP;
@@ -32,13 +33,17 @@ namespace ConceptPractice
             //LSPFollowedWrongly.Run();
             //LSPFollowed.Run();
 
+            // Design Patterns
+
+            //StrategyPattern.Run();
+            SimpleFactory.Run();
+
+
 
             // Practice Projects
             // Google Docs
             //DocumentEditorBD.DocumentEditorClient.Run();
             //DocumentEditorGD.DocumentEditorClient.Run();
-
-            StrategyPattern.Run();
 
         }
     }
