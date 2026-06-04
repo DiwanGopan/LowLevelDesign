@@ -36,8 +36,10 @@ namespace ConceptPractice
             // Design Patterns
 
             //StrategyPattern.Run();
-            SimpleFactory.Run();
 
+
+            SimpleFactory.Run();
+            FactoryMethodPattern.Run();
 
 
             // Practice Projects
