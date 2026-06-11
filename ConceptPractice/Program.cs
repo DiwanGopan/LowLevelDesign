@@ -1,4 +1,5 @@
 ﻿using ConceptPractice.DesignPatterns.FactoryPattern;
+using ConceptPractice.DesignPatterns.ObserverPattern;
 using ConceptPractice.DesignPatterns.StrategyPattern;
 using ConceptPractice.OOPS;
 using ConceptPractice.PracticeProjects.GoogleDocs;
@@ -38,8 +39,10 @@ namespace ConceptPractice
             //StrategyPattern.Run();
 
 
-            SimpleFactory.Run();
-            FactoryMethodPattern.Run();
+            //SimpleFactory.Run();
+            //FactoryMethodPattern.Run();
+
+            ObserverPattern.Run();
 
 
             // Practice Projects
